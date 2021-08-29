@@ -8,6 +8,7 @@ very useful function in applications.
 - [JS](/gists/random-int.js)
 
 ## Code
+Will select an int from min inclusively to max inclusively.
 ```Javascript
 const randomInt = (min, max) => {
   const rand = min - 0.5 + Math.random() * (max - min + 1);
