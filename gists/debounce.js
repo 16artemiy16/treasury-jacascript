@@ -10,4 +10,4 @@ const debounce = (cb, ms) => {
 
     setTimeout(() => isCooldown = false, ms);
   }
-}
+};
